@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adding CSS  -->
+    <link rel="stylesheet" href="style.css">   
+    <title>To Do List </title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="login.html"><button id="login">Login</button></a>
+            </li>
+            <li>
+                <a href="register.html"><button id="register">Register</button></a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Left Div Start -->
+        <div class="leftdiv">
+        <h3 id="todo">Write your TODO List here!</h3>
+        <!-- Form Start -->
+        <form id="myform">
+        <textarea type="text" id="input" required></textarea>
+        <input type="submit" id="btn" value="Post">            
+        </form>
+        </div>
+        
+        <!-- Right Div Start -->
+        <div class="rightdiv">
+            <h3 id="h3rightdiv">Your List Is Here</h3>
+            <div id="rightbottom">
+                <p id="ptag">Sample Task</p>
+                <img width="22" class="icons" id="c" height="22" src="https://img.icons8.com/ios/50/edit-property.png" alt="edit-property"/>
+                <img width="22" class="icons"  id="d" height="22" src="https://img.icons8.com/quill/50/waste.png" alt="waste"/>
+                <img width="32" height="32" id="check" src="https://img.icons8.com/sf-regular-filled/48/checked-checkbox.png" alt="checked-checkbox"/>
+             </div>               
+        </div>
+    </div>
+    
+    <!-- Adding JavaScript  -->
+    <script src="index.js"></script>
+    
+</body>
+</html>

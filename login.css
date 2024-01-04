@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+#myform{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(66, 65, 65);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 10px;
+    color: #fff;
+}
+#myform h1{
+    margin: 35px;
+}
+#myform label{
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+#myform div input{
+    padding: 6px 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 1px rgb(175, 175, 175);
+    cursor: pointer;
+}
+#myform div input:focus{
+    border: none;
+    outline: none;
+}
+#myform #btn{
+    padding: 8px 30px;
+    font-size: 1rem;
+    margin: 20px 0px 35px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#myform #btn:hover{
+    background-color: rgb(130, 231, 231);
+}
+
+@media only screen and (max-width:320px){
+#myform{
+    width: 83%;
+    margin-top: 50px;
+}
+#myform label{
+    font-size: 0.9rem;
+}
+#myform div input{
+    margin-top: 5px;
+}
+#myform #btn{
+    padding: 8px 30px;
+    font-size: 0.8rem;
+    margin: 10px 0px 35px 0px;
+}
+}
+
+@media only screen and (min-width:321px) and (max-width:425px){
+#myform{
+    width: 90%;
+    margin-top: 50px;
+}
+#myform label{
+    font-size: 0.9rem;
+}
+#myform div input{
+    margin-top: 5px;
+}
+#myform #btn{
+    padding: 8px 30px;
+    font-size: 0.8rem;
+    margin: 10px 0px 35px 0px;
+}
+}
+
+
+@media only screen and (min-width:426px) and (max-width:768px){
+#myform{
+    width: 65%;
+    margin-top: 50px;
+}
+#myform label{
+    font-size: 0.9rem;
+}
+#myform div input{
+    margin-top: 5px;
+}
+#myform #btn{
+    padding: 8px 30px;
+    font-size: 0.8rem;
+    margin: 10px 0px 35px 0px;
+}
+}

@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+#registerform{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(66, 65, 65);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+#registerform h1{
+    margin: 35px;
+}
+#registerform label{
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+#registerform div input{
+    padding: 6px 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 1px rgb(175, 175, 175);
+    cursor: pointer;
+}
+#registerform div input:focus{
+    border: none;
+    outline: none;
+}
+#registerform #btn1{
+    padding: 8px 30px;
+    font-size: 1rem;
+    margin: 20px 0px 35px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#registerform #btn1:hover{
+    background-color: rgb(238, 144, 238);
+}
+
+
+
+/* Media Queries */
+@media only screen and (max-width:320px){
+#registerform{
+    width: 83%;
+    margin-top: 50px;
+}
+#registerform label{
+    font-size: 0.9rem;
+}
+#registerform div input{
+    margin-top: 5px;
+}
+#registerform #btn1{
+    padding: 8px 30px;
+    font-size: 0.8rem;
+    margin: 10px 0px 35px 0px;
+}
+}
+
+@media only screen and (min-width:321px) and (max-width:425px){
+#registerform{
+    width: 90%;
+    margin-top: 50px;
+}
+#registerform label{
+    font-size: 0.9rem;
+}
+#registerform div input{
+    margin-top: 5px;
+}
+#registerform #btn1{
+    padding: 8px 30px;
+    font-size: 0.8rem;
+    margin: 10px 0px 35px 0px;
+}
+}
+
+
+@media only screen and (min-width:426px) and (max-width:768px){
+#registerform{
+    width: 65%;
+    margin-top: 50px;
+}
+#registerform label{
+    font-size: 0.9rem;
+}
+#registerform div input{
+    margin-top: 5px;
+}
+#registerform #btn1{
+    padding: 8px 30px;
+    font-size: 0.8rem;
+    margin: 10px 0px 35px 0px;
+}
+}
